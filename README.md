@@ -1,3 +1,4 @@
-# Sensor error perturbaton application
+# CPPapp
+## Sensor error perturbaton application
 
-An app which demonstrates the influence of a sensor when measuring the compression pressure beneath compression stockings or bandages
+An app written with Matlab 2016b which demonstrates the influence of a sensor when measuring the compression pressure beneath compression stockings or bandages.
