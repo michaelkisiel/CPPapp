@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1946715264" file="/home/michi/gitkraken/CPPapp/CPP App.prj" location="/home/michi/gitkraken/CPPapp" name="CPP App" target="target.mlapps" target-name="Package App">
+    <param.appname>CPP App</param.appname>
+    <param.authnamewatermark>Michael Kisiel</param.authnamewatermark>
+    <param.email>michael.kisiel@tu-harburg.de</param.email>
+    <param.company>TUHH</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Sensor error perturbation app</param.summary>
+    <param.description>An app written with Matlab 2016b which demonstrates the influence of a sensor when measuring the compression pressure beneath compression stockings or bandages.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/CPPappScreenshot.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>/home/michi/gitkraken/CPPapp</param.output>
+    <param.guid>7f642193-d92b-43b1-b853-4718d9acda6e</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/CPPapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/michi/gitkraken" name="CPPapp" optional="false">/home/michi/gitkraken/CPPapp</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/michi/Applications/MATLABR2016b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-47-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
