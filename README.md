@@ -1,5 +1,5 @@
 # CPPapp
-## Sensor error perturbaton application
+## Sub-bandage pressure perturbation calculator
 
 Measuring the sub-bandage pressure with monitoring devices build on resistive or pneumatic force-sensors seems to be challenging. Studies reveal that theoretically calculated compression pressure according to Laplace Law can not be confirmed with the measured pressures by mentioned monitoring devices [1]. Not much regarded research about changes of the pressure conditions under the bandage when introducing a sensor demonstrate a possible influence by sensor geometries itself [2].
 
@@ -11,3 +11,9 @@ An additional tab is provided where the pressure applied by bandage can be set. 
 
 ![](/cppapp-screenshot1.jpg)
 ![](/cppapp-screenshot2.jpg)
+
+## References
+
+[1] Thomas, S., Practical limitations of two devices used for the measurement of sub-bandage pressure: Implications for clinical practice. Journal of Wound Care. Volume 23, 6, 2014
+[2] Vinckx, L., Boeckx, W., Berghmans, J., Analysis of the pressure perturbation due to the introduction of a measuring probe under an elastic garment. Medical and Biological Engineering and Computing. Volume 28, 2:133-138, 1990
+[3] Khaburi, Jawad Ameen Jawad Al, Pressure Mapping Of Medical Compression Bandages Used For Venous Leg Ulcer Treatment. PhD Thesis. University of Leeds. 2010
